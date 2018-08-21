@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style media="screen">
+    body, html {
+      padding: 0;
+    }
+
+    body {
+      background: rgba(241,226, 215, 1);
+    }
+  </style>
+
+  <meta charset="utf-8">
+  <title>test</title>
+
+</head>
+
+<body>
+  <script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+  <script>
+    var burst = new mojs.Burst({
+      radius: {
+        15: 50
+      },
+      children: {
+        fill: ['deeppink', 'cyan', 'orange'],
+      }
+    }).play();
+  </script>
+</body>
+
+</html>
